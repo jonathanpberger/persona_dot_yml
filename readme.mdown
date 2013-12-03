@@ -8,45 +8,10 @@ Persona Dot YML offers a way to unify designers' personas and developers feature
 - Create an automated reminder for teams to align personas and tests suites by causing builds to fail.
 - Drive out a meaningful microformat to help guide persona development.
 
-> ## Installation
+## Contributing
 
-> Add this line to your application's Gemfile:
-
-    > gem 'persona_dot_yml'
-
-> And then execute:
-
-    > $ bundle
-
-> Or install it yourself as:
-
-    > $ gem install persona_dot_yml
-
-> ## Usage
-
-> ### Standard Usage
-
-> The following will call commented method in scope of the current class or module.  (Every RSpec ```describe``` block is an anonymous class.)
-
-	> [Gg]iven "I'm a logged in user" # calls some_state
-	> [Gg]iven "Sam is a logged in user" # calls some_state
-	> [Gg]iven "I'm logged in as Sam" # calls some_state
-> <!-- TODO: ack a handful of projects to find different common permutations / formulations of "As a user" -->
-
-> ## RSpec
-
-> You'll need to require PersonaDotYML in the spec helper and include it into your tests like so:
-
-	> require 'persona_dot_yml'
-
-	> RSpec.configure do |config|
-      > config.include PersonaDotYML
-	> end
-
-> ## Contributing
-
-> 1. Fork it
-> 2. Create your feature branch (`git checkout -b my-new-feature`)
-> 3. Commit your changes (`git commit -am 'Add some feature'`)
-> 4. Push to the branch (`git push origin my-new-feature`)
-> 5. Create new Pull Request
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
